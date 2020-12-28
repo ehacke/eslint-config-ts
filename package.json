@@ -1,10 +1,10 @@
 {
-  "name": "@ehacke/ts-eslint-config",
+  "name": "@ehacke/eslint-config-ts",
   "description": "Eslint Config for Typescript projects",
   "version": "1.0.0",
   "author": "Eric Hacke",
   "bugs": {
-    "url": "https://github.com/ehacke/ts-eslint-config/issues"
+    "url": "https://github.com/ehacke/eslint-config-ts/issues"
   },
   "config": {
     "commitizen": {
@@ -39,7 +39,7 @@
     "*.js",
     "!scratch.*"
   ],
-  "homepage": "https://github.com/ehacke/ts-eslint-config#readme",
+  "homepage": "https://github.com/ehacke/eslint-config-ts#readme",
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
@@ -60,7 +60,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ehacke/ts-eslint-config.git"
+    "url": "git+https://github.com/ehacke/eslint-config-ts.git"
   },
   "scripts": {
     "beta": "npm version prerelease && npm publish",
