@@ -5,8 +5,8 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-shadow': ['error'],
-    '@typescript-eslint/no-unused-vars': ['error'],
-    '@typescript-eslint/no-use-before-define': ['error'],
+    '@typescript-eslint/no-unused-vars': ['error', { args: 'after-used', ignoreRestSiblings: true, vars: 'all' }],
+    '@typescript-eslint/no-use-before-define': ['error', { classes: true, enums: true, functions: true, typedefs: true, variables: true }],
     'no-shadow': 'off',
     'no-unused-vars': 'off',
     'no-use-before-define': 'off',

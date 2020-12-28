@@ -2,15 +2,8 @@
   "plugins": [
     "sort-keys-fix"
   ],
-  "extends": [
-    "airbnb-base",
-    "plugin:prettier/recommended",
-    "plugin:unicorn/recommended",
-    "prettier",
-    "prettier/unicorn"
-  ],
+  "extends": ["@ehacke/eslint-config"],
   "rules": {
-    "sort-keys-fix/sort-keys-fix": "error",
-    "unicorn/expiring-todo-comments": "error"
+    "sort-keys-fix/sort-keys-fix": "error"
   }
 }
